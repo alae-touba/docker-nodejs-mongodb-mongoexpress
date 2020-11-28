@@ -1,0 +1,32 @@
+<div class="container">
+	<div class="row">
+		<div class="col-8">
+			<h1>welcome to my awesome app</h1>
+
+			<form method="POST" action="/">
+				<div class="form-group">
+					<label for="firstName">Firstname</label>
+					<input type="text" class="form-control" id="input-firstname" name="firstName" >
+				</div>
+
+				<div class="form-group">
+					<label for="lastName">Lastname</label>
+					<input type="text" class="form-control" id="input-lastname" name="lastName">
+				</div>
+				
+				<button type="submit" class="btn btn-primary" id="btn-submit">Submit</button>
+			</form>
+
+			<ul class="list-group list-group-flush mt-5" id="list">
+                {{#each users}}
+                    <p class="list-group-item"> {{this}} </p>
+                {{/each}}
+
+			</ul>
+
+		
+		</div>
+	</div>
+</div>
+
+

@@ -2,10 +2,10 @@
 
 code for a node app image that works with two other apps (mongodb and mongo-express)
 
-#Link to the image in docker hub
+# Link to the image in docker hub
 [link to image](https://hub.docker.com/repository/docker/alaetouba/node-mongodb-mongoexpress-image)
 
-#How to use the image
+# How to use the image
 
 (make sure you have docker and docker-compose installed)
 
